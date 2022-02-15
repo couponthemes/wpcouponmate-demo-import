@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Wp Coupon Demo Import
+Plugin Name: Wp Coupon Mate Demo Import
 Plugin URI: https://github.com/couponthemes/wpcoupon-demo-import
 Description: Import your content, widgets and theme settings with one click. Theme authors! Enable simple demo import for your theme demo data.
 Version: 1.0.0
