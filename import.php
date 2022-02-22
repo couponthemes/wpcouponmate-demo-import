@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Wp Coupon Mate Demo Import
-Plugin URI: https://github.com/couponthemes/wpcoupon-demo-import
+Plugin Name: WP Coupon Mate Demo Import
+Plugin URI: https://github.com/couponthemes/wpcouponmate-demo-import
 Description: Import your content, widgets and theme settings with one click. Theme authors! Enable simple demo import for your theme demo data.
 Version: 1.0.0
 Author: Coupon Themes
@@ -19,7 +19,7 @@ class WPCoupon_Demo_Import {
 
     function __construct( ){
 
-          $this->demo_args = array(
+           $this->demo_args = array(
             'page_on_front' => 166,
             'page_for_posts' => 205,
             'nav'=> array(
@@ -178,7 +178,7 @@ class WPCoupon_Demo_Import {
                     <p class="tie_message_hint">Importing demo data (post, pages, images, theme settings, ...) is the easiest way to setup your theme. It will
                         allow you to quickly edit everything instead of creating content from scratch. When you import the data following things will happen:</p>
 
-                    <ul style="padding-left: 20px;list-style-position: inside;list-style-type: square;}">
+                    <ul style="padding-left: 20px;list-style-position: inside;list-style-type: square;">
                         <li>No existing posts, pages, categories, images, custom post types or any other data will be deleted or modified .</li>
                         <li>No WordPress settings will be modified .</li>
                         <li>Posts, pages, some images, some widgets and menus will get imported .</li>
